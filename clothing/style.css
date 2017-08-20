@@ -1,0 +1,54 @@
+/* style.css */
+ h1{
+ text-align: center;
+ color: cyan;
+  font-size: 20px;
+     word-spacing: 5px;
+     background-color: orange;
+
+ }
+ th{
+   text-transform: uppercase;
+   background-color: blue;
+ }
+ body{
+
+   background: url(../Restaurant/pics/YVALeWG.gif);
+   background-size: cover;
+
+ }
+ .even{
+   background-color: white;
+ }
+ .money{
+  text-align: center;
+  color: green;
+ }
+ a:link{
+   color:Blue;}
+   a:visited{
+     color: green;
+   }
+   a:hover{
+     color:gold;
+   }
+img {
+display: block;
+margin: auto;
+}
+.yaba{
+  border-radius: 50%;
+}
+.face{
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+audio{
+  display:none;
+}
+.dye{
+ cursor: url(../Restaurant/pics/mario.cur), move;
+cursor: auto;
+cursor:default;
+}
