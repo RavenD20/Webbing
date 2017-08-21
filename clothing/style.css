@@ -7,8 +7,9 @@
      background-color: orange;
 
  }
- table{
-   text-align:center;
+ .table{
+   margin-left: auto;
+   margin-right: auto;
  }
  th{
    text-transform: uppercase;
