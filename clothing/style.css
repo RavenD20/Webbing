@@ -7,6 +7,9 @@
      background-color: orange;
 
  }
+ table{
+   text-align:center;
+ }
  th{
    text-transform: uppercase;
    background-color: blue;
