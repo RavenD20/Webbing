@@ -1,0 +1,55 @@
+/* style.css */
+ td{
+ text-align: center;
+ color: cyan;
+  font-size: 20px;
+     word-spacing: 5px;
+     background-color: orange;
+
+ }
+ .table{
+   margin-left: auto;
+   margin-right: auto;
+ }
+ .game{
+   text-transform: uppercase;
+   background-color: blue;
+ }
+ body{
+
+  background-color: cyan;
+  ;
+
+ }
+ .even{
+   background-color: white;
+ }
+ .money{
+  text-align: center;
+  color: green;
+ }
+ a:link{
+   color:Blue;}
+   a:visited{
+     color: green;
+   }
+   a:hover{
+     color:gold;
+   }
+img {
+display: block;
+margin: auto;
+}
+.yaba{
+  border-radius: 50%;
+}
+.face{
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+}
+{
+
+}
