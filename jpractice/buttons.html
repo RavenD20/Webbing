@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Buttons and such</title>
+    <script type="text/javascript">
+    //entering variables
+    var userName;
+    var score;
+    var age;
+display();
+
+  userName='Big Programing Guy';
+score =12;
+ageMonths = 12* 5;
+
+document.write(ageMonths);
+document.write('<br/>');
+document.write(userName);
+document.write('<br/>');
+document.write(score);
+
+function show(){
+  alert('No way')
+};
+
+
+
+function display(){
+var close;
+
+close=document.getElementById('blah').value;
+document.getElementById('super').innerHTML=(" We are" + close );
+}
+function adding(){
+  var num1;
+  var num2;
+  var total;
+
+  num1=document.getElementById('num1').value;
+  num2=document.getElementById('num2').value;
+ total = num1+ num2;
+document.getElementById('mo').innerHTML=("The answer is"+ total);
+
+
+
+}
+
+
+  </script>
+
+
+  </head>
+  <body>
+  <p> nice guy</p>
+  <button type="button" name="showButton" onclick="show()" >Press me</button>
+
+
+<p>
+
+<input type="text" name="tbox" id="blah">
+<button type="button" name="space" onclick="display()">  Show Text Box Info</button>
+
+<p id="super"> Place of super </p>
+</p>
+
+<button type="button" onclick="adding()"> Big Button</button>
+<br>
+<input type="text" name="numbox" id="num1"> Number 1 box
+<br>
+<input type="text" name="" id="num2">Number 2 box
+<br>
+<p id="mo"> place for mo </p>
+  </body>
+</html>

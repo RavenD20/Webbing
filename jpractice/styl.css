@@ -1,0 +1,38 @@
+/* style.css */
+h1{
+text-align: center;
+color: red;
+ font-size: 20px;
+    word-spacing: 5px;
+    background-color: tan;
+}
+body{
+  background-color: gray;
+}
+
+img{
+  border-radius: 50%;
+    margin: auto;
+    display: block;
+}
+h2{
+  text-align: center;
+  color: red;
+  font-size: 20px;
+  background-color: tan;
+}
+h4{
+  color: gold;
+  text-align: center;
+}
+
+button{
+  margin: auto;
+  display: block;
+}
+p{
+  color: red;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
