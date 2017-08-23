@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>More practice</title>
+    <script>
+    function changewords() {
+
+      document.getElementById('highlight1').style.backgroundColor="blue";
+
+    }
+    function getter(){
+        document.getElementById('highlight2').style.backgroundColor="red";
+    }
+
+</script>
+
+  </head>
+  <body>
+    <p>lorem ipsum dolor sit amet ,<span id="highlight1"> good things consecutar</span> adipiscing elit <span id="highlight2">bad things consecutar</span> sad do something something asomething</p>
+
+    <button type="button" id="change" onclick="changewords()" >meow</button>
+    <button type="button" onclick="getter()"> Getter</button>
+  </body>
+</html>
