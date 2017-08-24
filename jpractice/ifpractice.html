@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>practice if statements</title>
+  </head>
+  <script>
+  function check(){
+    var numVal =document.getElementById('box').value;
+    if (numVal) >= 70 {
+      document.getElementById('show').innerHTML =('you passed')
+    } else
+  {
+document.getElementById('show').innerHTML = ('didnt pass')
+}
+}
+</script>
+  <body>
+    <h2> check test scores</h2>
+    <input type="text" id="box" placeholder="enterscore">
+    <p id="show">score</p>
+    <button type="button" name="button" onclick="check()">Big button</button>
+  </body>
+</html>
