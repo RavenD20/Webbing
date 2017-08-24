@@ -1,7 +1,10 @@
 /*style.css*/
 body{
-  
+
   background-color: lightblue;
+}
+{
+
 }
 h1{
   color: blue;
@@ -20,6 +23,9 @@ h4{
   color:red;
   text-align: right;
 }
+h5{
+  font-size: 30px;
+}
 audio{
   display: none;
 }
@@ -28,53 +34,56 @@ img{
   margin: auto;
   display: block;
 }
-.container{
-  overflow: hidden;
-  background-color: green;
-  font-family: cursive;
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+    text-align: center;
+    margin: auto;
 }
-.container a {
-  float:left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+
+li {
+    float: left;
 }
-.dropdown {
-  float: left;
-  overflow: hidden;
+
+li a, .dropbtn {
+    display: inline-block;
+    color: tan;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
-.dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
 }
-.container a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+
+li.dropdown {
+    display: inline-block;
 }
+
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #00ff66;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px orange;
-  z-index: 1;
+    display: none;
+    position: absolute;
+    background-color: red;
+    min-width: 160px;
+    z-index: 1;
 }
+
 .dropdown-content a {
-  float: none;
-  color: gold;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+    color: gold;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
 }
-.dropdown-content a:hover {
-  background-color: #333;
-}
+
+.dropdown-content a:hover {background-color: maroon}
+
 .dropdown:hover .dropdown-content {
-  display: block;
+    display: block;
+}
+p{
+  text-align: center;
 }
