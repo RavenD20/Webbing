@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="css\bootstrap-theme.min.css">
     <link rel="stylesheet" href="js\bootstrap.min.js">
     <script>
+    function changewords() {
+
+      document.getElementById('highlight').style.backgroundColor="yellow";
+
+    }
     </script>
     <ul>
     <li><a href="main.html">Main</a></li>
@@ -41,6 +46,8 @@
   <body>
 <p> You know whats also amazing? Our teas.</p>
 <p> Brewed from the freshest most amazing herbs all 100% of the time.Right when you order.</p>
-<p> Yes we said 100% fresh brew 100% of the time.</p>
+<p> <span id="highlight"> Yes we said 100% fresh brew 100% of the time.</span> </p>
+
+    <button type="button" id="change" onclick="changewords()" >The Point?</button>
   </body>
 </html>

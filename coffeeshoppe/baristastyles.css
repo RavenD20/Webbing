@@ -96,3 +96,8 @@ border-radius: 25% ;
 p .yaa{
   background-color: yellow;
 }
+button{
+  margin: auto;
+  display: block;
+
+}
