@@ -2,6 +2,7 @@
 body{
 
   background-color: lightblue;
+
 }
 {
 
@@ -12,7 +13,7 @@ h1{
 text-shadow: red;
 }
 h2{
-  color: green;
+  color: darkgreen;
   text-align: left;
 }
 h3{
@@ -84,6 +85,14 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-p{
+p {
   text-align: center;
+}
+.rectangle{
+  width: 100px;
+  height: 50px;
+border-radius: 25% ;
+}
+p .yaa{
+  background-color: yellow;
 }

@@ -7,6 +7,13 @@
     <link rel="stylesheet" href="css\bootstrap-theme.min.css">
     <link rel="stylesheet" href="js\bootstrap.min.js">
     <script>
+
+    function display(){
+    var close;
+
+    close=document.getElementById('duh').value;
+    document.getElementById('yaa').innerHTML=("Dem Hipsterz are " + close );
+    }
     </script>
     <ul>
     <li><a href="main.html">Main</a></li>
@@ -14,7 +21,7 @@
       <a href="javascript:void(0)" class="dropbtn">Brews</a>
       <div class="dropdown-content">
         <a href="cappucinos.html">Cappucino</a>
-        <a href="latte.html">Lattes</a>
+        <a href="lattes.html">Lattes</a>
         <a href="teas.html">Teas</a>
       </div>
       <li class="dropdown">
@@ -27,7 +34,7 @@
         <li class="dropdown">
         <a href="javascript:void(0)" class="dropbtn">Sandwhiches</a>
         <div class="dropdown-content">
-          <a href="tunamelt.html">Tuna Melt</a>
+          <a href="tunamelt.html">Paninis</a>
             <a href="grilledcheese.html">Grilled Cheese</a>
           </div>
           <li><a href="about.html">About Us</a>
@@ -36,8 +43,27 @@
     </li>
     </ul>
   </head>
-
+<h1> About Us</h1>
+<img src= "shoppepics\200w_d (1).gif">
   <body>
+<tb>
+  <td>
+    What can we tell you about Dem Hipsterz you dont already know?
+    I would say alot. Should we tell you? That is the real question</td>
+    <td>
+      The answer is of course not. An save you the challenge of seeking out an learning how great we are?</td>
+      <td> We couldnt do that. As responsible members of society we have the right..no priviledge...no duty to educate the people of the world</td>
+      <td>Especially our customers</td>
 
-  </body>
+      <h3>Wanna tell us how great we are? Comment below! Duh.</h3>
+                <input type="text" name="comment" width="50" cols="20" rows="4" id="duh">
+        <button type="button" name="space" onclick="display()" >Blog Away</button>
+        <p id="yaa"  >  Dem Hipsterz are:   </p>
+        </p>
+    <div class="rectangle">
+      <img title="music" src="shoppepics\music.gif"></div>
+      <audio controls autoplay loop >
+        <source src="shoppepics\Jahzzar_-_05_-_Siesta.mp3" type="audio/mpeg"/>
+        </audio>
+    </body>
 </html>
