@@ -14,6 +14,9 @@
       alert('Your order has been placed!')
     };
 
+
+
+
 //  function display(){
     // document.getElementById('pizza').innerHTML=(" Yous mugs ordered " + total );
   // };
@@ -28,7 +31,7 @@
     <img title= "FatDon" src="pizzapics\thefatdon.jpg" height="300" width ="400" alt="TheDon">
     <h2> Ayyyy we got it off the back of a truck</h2>
     <h4>Type of :
-    <select id="pizza1" onchange="pizza()">
+    <select id="pizza1"  on click="" onchange="pizza">
       <option value="Crust">Crust</option>
       <option value="Thick">Thick</option>
       <option value="Thin">Thin</option>
@@ -36,7 +39,7 @@
     </label><br/></fieldset>
   <hr>
   Type of :
-  <select name="pizza2" onchange="pizza()">
+  <select name="pizza2" onchange="pizza1">
     <option value="sauce">Sauce</option>
     <option value="sweet">Marinara</option>
     <option value="Spicy">Zesty</option>
@@ -44,7 +47,7 @@
   </label><br/></fieldset>
 <hr>
 Type of :
-<select name="pizza3" onchange="pizza()">
+<select name="pizza3" onchange="pizza2">
   <option value="Cheese">Cheese</option>
   <option value="prov">Provolone</option>
   <option value="mozz">Mozzarella</option>
@@ -52,7 +55,7 @@ Type of :
 </label><br/></fieldset>
 <hr>
 First Topping:
-<select name="pizza4"onchange="pizza()">
+<select name="pizza4"onchange="pizza3">
   <option value="veg">Veggies</option>
   <option value="mush">Mushroom</option>
   <option value="BO">Black Olive</option>
@@ -61,7 +64,7 @@ First Topping:
 <hr>
 
 Second Topping:
-<select name="pizza5" onchange="pizza()">
+<select name="pizza5" onchange="pizza4">
   <option value="meat">Meat</option>
   <option value="steak">Steak</option>
   <option value="chix">Chicken</option>
@@ -69,7 +72,7 @@ Second Topping:
 </label><br/></fieldset>
 <hr>
 Third Topping:
-<select name="pizza6" onchange="pizza()">
+<select name="pizza6" onchange="pizza5">
   <option value="extras">Extras</option>
   <option value="secret">Special Sauce</option>
   <option value="chdr">Cheddar</option>
@@ -83,9 +86,32 @@ Third Topping:
 </p>
 <br>
 <!-- <button type ="button"onclick="display()" -->
-<p id="pizza">#order</p>
+<button onclick="adding()">Yo</button>
+<p id="tab">#order</p>
 <button type="button" name="showButton" onclick="show()"  onclick="display()" >Get tha hookup</button>
 <script>
+ function adding(){
+   var pizza;
+   var pizza1;
+   var pizza2;
+   var pizza3;
+   var pizza4;
+   var pizza5;
+      var order;
+
+  var pizza=document.getElementById('pizza').value;
+  var  pizza1=document.getElementById('pizza1').value;
+  var pizza2=document.getElementById('pizza2').value;
+  var pizza3=document.getElementById('pizza3').value;
+  var pizza4=document.getElementById('pizza4').value;
+  var pizza5=document.getElementById('pizza5').value;
+
+   order = pizza+ pizza1+ pizza2+ pizza3+ pizza4+ pizza5;
+
+   document.getElementsByName('tab').innerHTML=("Ya order is" + order )
+
+ }
+
 </script>
   </body>
 
